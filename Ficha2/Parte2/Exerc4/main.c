@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
     }
     
     if (media >= 9.5){
-        puts("O aluno foi aprovado!");
+        printf("O aluno foi aprovado com media de %.2f\n", media);
     }
     else if (media == 0.0){
         puts("Media invalida por notas invalidas!");   
@@ -37,4 +37,3 @@ int main(int argc, char** argv) {
     }
     return (EXIT_SUCCESS);
 }
-
