@@ -13,7 +13,7 @@
  */
 int main(int argc, char** argv) {
 
-    int i, num;
+    int num = 0;
     int cont = 0;
 
     do {
@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
         scanf("%d", &num);
     } while (num <= 0);
 
-    for (i = 1; i <= num; i++) {
+    for (int i = 1; i <= num; i++) {
         if (num % i == 0) {
             cont++;
         }
